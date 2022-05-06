@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            Javascript Syntax
+        </title>
+    </head>
+    <body>
+        <h1>Open Console.</h1>
+
+
+        <p>How do we declare an array?</p>
+        <h3 id="declarationofarray"></h3>
+        <script>
+
+            console.log("hi i am anisha");
+            var firstname="Anisha";
+            console.log(firstname);
+            
+            var lastname="Jain";
+            console.log(lastname);
+
+            var fullname= firstname.concat(lastname);
+            console.log(fullname);
+
+           // var fruits=["mango","orange","banana","strawberry"];
+            console.log(fruits);
+            document.getElementById("declarationofarray").innerHTML=fruits;
+
+
+            var fruits = ["Apple", "Orange", "Mango"];
+
+
+var value = "";
+   for (i = 0; i < fruits.length; i++) {
+       console.log(fruits[i]);
+       value = value + fruits[i] + "<br>";
+   }
+document.getElementById("loop_the_array").innerHTML = value;
+
+        </script>
+    </body>
+</html>
